@@ -1,41 +1,67 @@
-# 💫 Hi 👋, I'm Hannan
-**A Student**
+# Hannan Mudassar
+**`Student`**
 
-Email Me 👉 ✉️ **hannanmudassar498@gmail.com** For Collaboration/Project or Anything Else. 😊😊
-
-- 🌱 **I’m currently learning:** Web development
-- 📫 **How to reach me:** hannanmudassar498@gmail.com
- 
- # 💫 About Me:
-🎓 Computer Science Student | 🛠️ Building projects and learning in public | 💡 Always open to collaborating on open-source.
-
-
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/justt_hannan_/) 
-
-# 💻 Tech Stack:
-![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=hannandeveloper&theme=rose_pine&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=hannandeveloper&theme=rose_pine&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=hannandeveloper&theme=rose_pine&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
-<!-- Snake Game Repo View -->
-
-<div align="center">
-  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
-</div>
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=hannandeveloper&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=hannandeveloper&limit=5&theme=dark&combine_all_yearly_contributions=true)
+I am a CS student passionate about web development, building projects in public, and contributing to open-source software.
 
 ---
-[![](https://komarev.com/ghpvc/?username=hannandeveloper&icon=1&color=13)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### Connect with Me
+
+<p align="center">
+  <a href="https://www.instagram.com/justt_hannan_/" target="_blank"><img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" /></a>
+  <a href="mailto:hannanmudassar498@gmail.com" target="_blank"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" /></a>
+  <a href="https://github.com/hannandeveloper" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/hannan-mudassar-69bb24424" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
+</p>
+
+---
+
+### My Toolbox
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,html,css,js,vscode,github,netlify" />
+</p>
+
+---
+
+### Currently Learning
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=npm,nodejs,express" />
+</p>
+
+---
+
+### Top Languages 
+<p align="center">
+<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=hannandeveloper&theme=rose_pine&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="Top Languages" />
+</p>
+
+---
+
+### Projects
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://passnest-h.netlify.app/" target="_blank">
+        <img src="https://api.microlink.io/?url=https%3A%2F%2Fpassnest-h.netlify.app%2F&screenshot=true&meta=false&embed=screenshot.url"
+             alt="PassNest Password Manager"
+             style="width:100%; height:200px; object-fit:cover;" />
+      </a>
+      <br />
+      <b>PassNest - Password Manager</b><br />
+      <sub>A secure and customizable password manager web application built to save your passwords.</sub><br />
+      <a href="https://passnest-h.netlify.app/" target="_blank">Live Demo</a> | <a href="https://github.com/hannandeveloper" target="_blank">Repository</a>
+      <br />
+      <sub>Tags: JavaScript, HTML5, CSS3, Web Development</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+<p align="center">
+  <b>Open to opportunities and open-source collaborations.</b><br />
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hannanmudassar498@gmail.com" target="_blank">Send an Email via Gmail</a>
+</p>
