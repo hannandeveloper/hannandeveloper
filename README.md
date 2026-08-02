@@ -22,8 +22,8 @@ I am a CS student passionate about web development, building projects in public,
   <img src="https://skillicons.dev/icons?i=git,html,css,js,vscode,github,netlify" />
 </p>
 
+<!--https://github.com/tandpfun/skill-icons?tab=readme-ov-file#icons-list?     This is the link of the repository use for icons-->
 ---
-
 ### Currently Learning
 
 <p align="center">
