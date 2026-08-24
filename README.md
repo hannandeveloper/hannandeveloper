@@ -19,7 +19,7 @@ I am a CS student passionate about web development, building projects in public,
 ### My Toolbox
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,html,css,js,vscode,github,netlify" />
+  <img src="https://skillicons.dev/icons?i=git,html,css,js,vscode,tailwind,github,netlify" />
 </p>
 
 <!--https://github.com/tandpfun/skill-icons?tab=readme-ov-file#icons-list?     This is the link of the repository use for icons-->
