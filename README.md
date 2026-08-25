@@ -27,7 +27,7 @@ I am a CS student passionate about web development, building projects in public,
 ### Currently Learning
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=npm,nodejs,express" />
+  <img src="https://skillicons.dev/icons?i=react" />
 </p>
 
 ---
