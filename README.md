@@ -62,6 +62,7 @@ I am a CS student passionate about web development, building projects in public,
 ---
 
 <p align="center">
-  <b>Open to opportunities and open-source collaborations.</b><br />
+  <b style="width:100%; height:200px; " >ح</b><br/>
+  <b>Open to opportunities and open-source collaborations.</b><br/>
   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hannanmudassar498@gmail.com" target="_blank">Send an Email via Gmail</a>
 </p>
