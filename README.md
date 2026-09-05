@@ -62,9 +62,8 @@ I am a CS student passionate about web development, building projects in public,
 ---
 
 <p align="center">
-    <img src="myLogo.png"
-             alt="logo"
-             style="height:200px; " />
+ <img  src="logo.svg" alt="Logo" height="120"/>
+<br/>
 <br/>
   <b>Open to opportunities and open-source collaborations.</b><br/>
   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hannanmudassar498@gmail.com" target="_blank">Send an Email via Gmail</a>
