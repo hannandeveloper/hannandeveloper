@@ -1,7 +1,8 @@
 # Hannan Mudassar
 **`Student`**
 
-I am a CS student passionate about web development, building projects in public, and contributing to open-source software.
+I am a CS student passionate about problem solving , building projects in public, and contributing to open-source software.
+Currently learning web development. 
 
 ---
 
