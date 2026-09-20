@@ -28,7 +28,7 @@ Currently learning web development.
 ### Currently Learning
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react" />
+  <img src="https://skillicons.dev/icons?i=react,py" />
 </p>
 
 ---
