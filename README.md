@@ -5,7 +5,7 @@ I am a CS student passionate about problem solving , building projects in public
 Currently learning web development. 
 
 ---
-
+me
 ### Connect with Me
 
 <p align="center">
@@ -61,6 +61,9 @@ Currently learning web development.
 </table>
 
 ---
+
+![Countdown](https://awesometime.vercel.app/api?type=countdown&date=2026-10-08&label=Turning-19)
+
 
 <p align="center">
  <img  src="logo.svg" alt="Logo" height="120"/>
