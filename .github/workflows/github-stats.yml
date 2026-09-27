@@ -1,40 +1,59 @@
-name: Update Terminal Stats Card
+name: Generate Terminal Stats
 
 on:
   schedule:
-    # Run once every 24 hours at midnight
-    - cron: '0 0 * * *'
-  workflow_dispatch: # Allows manual execution from the Actions tab
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+  push:
+    branches: [ main ]
 
 permissions:
-  contents: write # Required to push the updated SVG back to the repo
+  contents: write
 
 jobs:
-  build-stats:
-    runs-on: tokyonight
-
+  build:
+    runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout the repository
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
-      # Step 2: Compile the SVG Card using our Action
-      - name: Generate SVG Terminal Stats Card
-        uses: yogeshwaran01/github-stats-terminal-style@master
-        with:
-          username: ${{ github.repository_owner }}
-          theme: tokyonight
-          headerStyle: mac
-          commands: whoami,neofetch,languages,uptime,exit
-          outputPath: assets/github_stats.svg
+      - name: Create assets folder
+        run: mkdir -p assets
 
-      # Step 3: Commit and Push the updated SVG card back to repository
-      - name: Commit and Push Changes
+      - name: Generate SVG
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          cat > assets/github_stats.svg << 'EOF'
+          <svg xmlns="http://www.w3.org/2000/svg" width="600" height="280" viewBox="0 0 600 280">
+            <style>
+             .bg { fill: #0d1117; }
+             .header { fill: #21262d; }
+             .dot-red { fill: #ff5f56; }
+             .dot-yellow { fill: #ffbd2e; }
+             .dot-green { fill: #27c93f; }
+             .text { font-family: 'Courier New', monospace; font-size: 14px; fill: #c9d1d9; }
+             .prompt { fill: #58a6ff; }
+             .command { fill: #f0883e; }
+             .output { fill: #7ee787; }
+            </style>
+            <rect width="600" height="280" rx="10" class="bg"/>
+            <rect width="600" height="35" rx="10" class="header"/>
+            <rect y="25" width="600" height="10" class="header"/>
+            <circle cx="25" cy="17" r="7" class="dot-red"/>
+            <circle cx="50" cy="17" r="7" class="dot-yellow"/>
+            <circle cx="75" cy="17" r="7" class="dot-green"/>
+            <text x="20" y="70" class="text"><tspan class="prompt">hannan@github:~$</tspan> <tspan class="command">whoami</tspan></text>
+            <text x="20" y="95" class="text output">hannandeveloper - Frontend Developer</text>
+            <text x="20" y="125" class="text"><tspan class="prompt">hannan@github:~$</tspan> <tspan class="command">ls./skills</tspan></text>
+            <text x="20" y="150" class="text output">React.js Next.js JavaScript Tailwind</text>
+            <text x="20" y="180" class="text"><tspan class="prompt">hannan@github:~$</tspan> <tspan class="command">cat stats.json</tspan></text>
+            <text x="20" y="205" class="text output">Stars: Counting... Repos: 15+ Followers: Growing</text>
+            <text x="20" y="235" class="text"><tspan class="prompt">hannan@github:~$</tspan> <tspan class="command">█</tspan></text>
+          </svg>
+          EOF
+
+      - name: Commit SVG
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add assets/github_stats.svg
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update terminal stats card [skip ci]" && git push)
+          git commit -m "Add terminal stats SVG" || echo "No changes"
+          git push
