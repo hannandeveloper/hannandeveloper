@@ -5,6 +5,9 @@ I am a CS student passionate about problem solving , building projects in public
 Currently learning web development. 
 
 ---
+![My GitHub Terminal Stats](assets/github_stats.svg)
+
+---
 
 ### Connect with Me
 
