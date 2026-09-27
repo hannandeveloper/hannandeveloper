@@ -1,11 +1,13 @@
-# Hannan Mudassar
-**`Student`**
+# Hannan Mudassar  
+<!-- **`Student`**  -->
 
-I am a CS student passionate about problem solving , building projects in public, and contributing to open-source software.
+<!--I am a CS student passionate about problem solving , building projects in public, and contributing to open-source software.
 Currently learning web development. 
 
----
-![My GitHub Terminal Stats](assets/github_stats.svg)
+---   -->
+<p align="center">
+  <img src="assets/github_stats.svg" alt="My GitHub Terminal Stats" />
+</p>
 
 ---
 
