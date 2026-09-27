@@ -49,22 +49,19 @@ Currently learning web development.
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <a href="https://passnest-h.netlify.app/" target="_blank">
-        <img src="https://api.microlink.io/?url=https%3A%2F%2Fpassnest-h.netlify.app%2F&screenshot=true&meta=false&embed=screenshot.url"
-             alt="PassNest Password Manager"
-             style="width:100%; height:200px; object-fit:cover;" />
-      </a>
-      <br />
-      <b>PassNest - Password Manager</b><br />
-      <sub>A secure and customizable password manager web application built to save your passwords.</sub><br />
-      <a href="https://passnest-h.netlify.app/" target="_blank">Live Demo</a> | <a href="https://github.com/hannandeveloper" target="_blank">Repository</a>
-      <br />
-      <sub>Tags: JavaScript, HTML5, CSS3, Web Development</sub>
+    <td>
+      <h3> PassNest - Password Manager</h3>
+      <p>A secure and customizable password manager web application built to save your passwords locally with encryption.</p>
+      <p>
+<img src="https://skillicons.dev/icons?i=html,css,js" />
+      </p>
+      <p>
+        <a href="https://passnest-h.netlify.app/" target="_blank"><b>🌐 Live Demo</b></a> •
+        <a href="https://github.com/hannandeveloper/passnest" target="_blank"><b>📂 Source Code</b></a>
+      </p>
     </td>
   </tr>
 </table>
-
 ---
 
 
