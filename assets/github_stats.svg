@@ -1,26 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="280" viewBox="0 0 600 280">
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="320" viewBox="0 0 650 320">
   <style>
-   .bg { fill: #0d1117; }
-   .header { fill: #21262d; }
-   .dot-red { fill: #ff5f56; }
-   .dot-yellow { fill: #ffbd2e; }
-   .dot-green { fill: #27c93f; }
-   .text { font-family: 'Courier New', monospace; font-size: 14px; fill: #c9d1d9; }
-   .prompt { fill: #58a6ff; }
-   .command { fill: #f0883e; }
-   .output { fill: #7ee787; }
+  .bg { fill: #0d1117; }
+  .header { fill: #161b22; }
+  .dot-red { fill: #ff5f56; }.dot-yellow { fill: #ffbd2e; }.dot-green { fill: #27c93f; }
+  .text { font-family: 'Cascadia Code', 'Courier New', monospace; font-size: 15px; fill: #c9d1d9; }
+  .prompt { fill: #3fb950; font-weight: bold; }
+  .command { fill: #58a6ff; }
+  .green { fill: #3fb950; }
+  .yellow { fill: #d29922; }
+  .white { fill: #ffffff; }
   </style>
-  <rect width="600" height="280" rx="10" class="bg"/>
-  <rect width="600" height="35" rx="10" class="header"/>
-  <rect y="25" width="600" height="10" class="header"/>
-  <circle cx="25" cy="17" r="7" class="dot-red"/>
-  <circle cx="50" cy="17" r="7" class="dot-yellow"/>
-  <circle cx="75" cy="17" r="7" class="dot-green"/>
-  <text x="20" y="70" class="text"><tspan class="prompt">hannan@github:~$</tspan> <tspan class="command">whoami</tspan></text>
-  <text x="20" y="95" class="text output">hannandeveloper - Frontend Developer</text>
-  <text x="20" y="125" class="text"><tspan class="prompt">hannan@github:~$</tspan> <tspan class="command">ls./skills</tspan></text>
-  <text x="20" y="150" class="text output">React.js Next.js JavaScript Tailwind</text>
-  <text x="20" y="180" class="text"><tspan class="prompt">hannan@github:~$</tspan> <tspan class="command">cat stats.json</tspan></text>
-  <text x="20" y="205" class="text output">Stars: Counting... Repos: 15+ Followers: Growing</text>
-  <text x="20" y="235" class="text"><tspan class="prompt">hannan@github:~$</tspan> <tspan class="command">█</tspan></text>
+  <rect width="650" height="320" rx="12" class="bg"/>
+  <rect width="650" height="40" rx="12" class="header"/>
+  <rect y="28" width="650" height="15" class="header"/>
+  <circle cx="30" cy="20" r="7" class="dot-red"/>
+  <circle cx="55" cy="20" r="7" class="dot-yellow"/>
+  <circle cx="80" cy="20" r="7" class="dot-green"/>
+  <text x="120" y="25" class="text" font-size="12">hannan@github — ~/profile</text>
+
+  <text x="25" y="75" class="text"><tspan class="prompt">➜</tspan> <tspan class="green">~</tspan> <tspan class="command">whoami</tspan></text>
+  <text x="25" y="100" class="text white">CS Student | Frontend Developer | hannandeveloper</text>
+
+  <text x="25" y="135" class="text"><tspan class="prompt">➜</tspan> <tspan class="green">~</tspan> <tspan class="command">cat stats.txt</tspan></text>
+  <text x="25" y="160" class="text"><tspan class="yellow">Total Repos :</tspan> <tspan class="white">7+</tspan></text>
+  <text x="25" y="185" class="text"><tspan class="yellow">Total Stars :</tspan> <tspan class="white">14 ⭐</tspan></text>
+  <text x="25" y="210" class="text"><tspan class="yellow">Role :</tspan> <tspan class="white">CS Student</tspan></text>
+  <text x="25" y="235" class="text"><tspan class="yellow">Focus :</tspan> <tspan class="white">MERN Stack &amp; Open Source</tspan></text>
+
+  <text x="25" y="275" class="text"><tspan class="prompt">➜</tspan> <tspan class="green">~</tspan> <tspan class="command">echo "Keep coding!"</tspan><tspan class="green"> █</tspan></text>
 </svg>
