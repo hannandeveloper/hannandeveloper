@@ -5,7 +5,7 @@ I am a CS student passionate about problem solving , building projects in public
 Currently learning web development. 
 
 ---
-me
+
 ### Connect with Me
 
 <p align="center">
@@ -62,8 +62,6 @@ me
 
 ---
 
-![Countdown](https://awesometime.vercel.app/api?type=countdown&date=2026-10-08&label=Turning-19)
-
 
 <p align="center">
  <img  src="logo.svg" alt="Logo" height="120"/>
@@ -72,3 +70,5 @@ me
   <b>Open to opportunities and open-source collaborations.</b><br/>
   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hannanmudassar498@gmail.com" target="_blank">Send an Email via Gmail</a>
 </p>
+
+[Total Stars](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hannandeveloper/hannandeveloper/main/stats/stars.json&query=$.stars&label=Total%20Stars&logo=github&style=for-the-badge&color=yellow)
