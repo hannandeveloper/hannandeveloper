@@ -69,6 +69,8 @@ Currently learning web development.
 <br/>
   <b>Open to opportunities and open-source collaborations.</b><br/>
   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hannanmudassar498@gmail.com" target="_blank">Send an Email via Gmail</a>
+  <p align="center">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hannandeveloper/hannandeveloper/main/stats/stars.json&query=$.stars&label=Total%20Stars&logo=github&style=for-the-badge&color=black" />
+</p>
 </p>
 
-[Total Stars](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/hannandeveloper/hannandeveloper/main/stats/stars.json&query=$.stars&label=Total%20Stars&logo=github&style=for-the-badge&color=yellow)
