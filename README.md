@@ -52,7 +52,7 @@ Currently learning web development.
     <td>
       <h3> PassNest - Password Manager</h3>
       <p>A secure and customizable password manager web application built to save your passwords locally with encryption.</p>
-      <p>
+      <p align="center">
 <img src="https://skillicons.dev/icons?i=html,css,js" />
       </p>
       <p>
@@ -62,6 +62,8 @@ Currently learning web development.
     </td>
   </tr>
 </table>
+
+
 ---
 
 
