@@ -2,15 +2,20 @@ name: Total Stars Counter
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # runs every 6 hours
-  workflow_dispatch:  # you can also run manually
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   count-stars:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Count total stars
         uses: actions/github-script@v7
         with:
@@ -23,7 +28,7 @@ jobs:
             repos.forEach(repo => {
               if (!repo.fork) { totalStars += repo.stargazers_count; }
             });
-            
+
             const fs = require('fs');
             if (!fs.existsSync('stats')) fs.mkdirSync('stats');
             fs.writeFileSync('stats/stars.json', JSON.stringify({ stars: totalStars }));
