@@ -61,6 +61,19 @@ Currently learning web development.
       </p>
     </td>
   </tr>
+    <tr>
+    <td>
+      <h3>Video Stats Dashboard</h3>
+      <p>A secure and customizable password manager web application built to save your passwords locally with encryption.</p>
+      <p align="center">
+<img src="https://skillicons.dev/icons?i=html,css,js" />
+      </p>
+      <p>
+        <a href="https://passnest-h.netlify.app/" target="_blank"><b>🌐 Live Demo</b></a> •
+        <a href="https://github.com/hannandeveloper/passnest" target="_blank"><b>📂 Source Code</b></a>
+      </p>
+    </td>
+  </tr>
 </table>
 
 
