@@ -5,9 +5,15 @@
 Currently learning web development. 
 
 ---   -->
-<p align="center">
-  <img src="assets/github_stats.svg" alt="My GitHub Terminal Stats" />
-</p>
+```javascript
+const hannan = {
+  pronouns: "he" | "him",
+  whoAmI: "CS student",
+  code: [Javascript,  HTML, CSS,  Python, ],
+  CurrentlyLearning: "Web development && python"
+  echo: "Keep coding"
+}
+```
 
 ---
 
