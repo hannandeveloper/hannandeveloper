@@ -47,7 +47,7 @@ Currently learning web development.
 
 ### Projects
 
-<table>
+<table align="center" >
   <tr>
     <td>
       <h3> PassNest - Password Manager</h3>
@@ -64,13 +64,13 @@ Currently learning web development.
     <tr>
     <td>
       <h3>Video Stats Dashboard</h3>
-      <p>A secure and customizable password manager web application built to save your passwords locally with encryption.</p>
+      <p>A minimal, fast web page to compare video performance </p>
       <p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,js" />
+<img src="https://skillicons.dev/icons?i=html,tailwind,js" />
       </p>
       <p>
-        <a href="https://passnest-h.netlify.app/" target="_blank"><b>🌐 Live Demo</b></a> •
-        <a href="https://github.com/hannandeveloper/passnest" target="_blank"><b>📂 Source Code</b></a>
+        <a href="https://videos-stats-dashboard.netlify.app/" target="_blank"><b>🌐 Live Demo</b></a> •
+        <a href="https://github.com/hannandeveloper/Video-Stats-Dashboard" target="_blank"><b>📂 Source Code</b></a>
       </p>
     </td>
   </tr>
